@@ -56,7 +56,7 @@ http {
     server {
         listen 80;
         server_name localhost;
-        root ~/workspace/test/app;
+        root /var/www/html;
     
         location / {
             try_files $uri $uri/ @nodejs;
